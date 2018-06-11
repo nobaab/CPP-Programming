@@ -20,12 +20,12 @@ void find(node* temp, int key)
 {
     while (temp!=NULL) {
         if (temp -> data==key) {
-            printf("Found\n");
+            cout <<"Found"<<endl;
             return ;
         }
         temp = temp -> next;
     }
-    printf("Not Found\n");
+    cout <<"Not Found"<<endl;
 }
 void printData()
 {
@@ -51,3 +51,4 @@ int main()
     find(head,key);
     
 }
+
